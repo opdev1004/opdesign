@@ -1,0 +1,18 @@
+.circle-button {
+  border-style: none;
+  border-radius: 100%;
+  padding: 1em 1em;
+  line-height: 0.5em;
+  text-align: center;
+  color: #ffffff;
+  background-color: #4caf50;
+  transition: background-color 0.3s ease;
+}
+
+.circle-button:hover {
+  background-color: #43a047;
+}
+
+.circle-button:active {
+  background-color: #388e3c;
+}

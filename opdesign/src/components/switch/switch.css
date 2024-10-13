@@ -1,0 +1,40 @@
+.switch {
+  position: relative;
+  width: 48px;
+  height: 28px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #cccccc;
+  border-radius: 28px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.switch:before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #666666;
+  top: 4px;
+  left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.switch:checked {
+  background-color: #4caf50;
+}
+
+.switch:checked:before {
+  font-size: 14px;
+  content: "✔";
+  text-align: center;
+  color: #4caf50;
+  background-color: #ffffff;
+}
+
+.switch:checked:before {
+  transform: translateX(20px);
+}

@@ -1,0 +1,43 @@
+.outline-switch {
+  position: relative;
+  border-style: solid;
+  border-color: #666666;
+  border-width: 2px;
+  width: 48px;
+  height: 28px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #cccccc;
+  border-radius: 28px;
+  outline: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.outline-switch:before {
+  content: "";
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  border-radius: 100%;
+  background-color: #666666;
+  top: 3px;
+  left: 4px;
+  transition: transform 0.3s ease;
+}
+
+.outline-switch:checked {
+  background-color: #4caf50;
+}
+
+.outline-switch:checked:before {
+  font-size: 12px;
+  content: "✔";
+  background-color: #ffffff;
+  text-align: center;
+  color: #4caf50;
+}
+
+.outline-switch:checked:before {
+  transform: translateX(18px);
+}

@@ -1,0 +1,7 @@
+{
+  "style": {
+    "rootDirs": ["./src"],
+    "outDir": "./dist/",
+    "includeChildDir": true
+  }
+}

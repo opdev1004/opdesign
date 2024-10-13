@@ -1,0 +1,33 @@
+.outline-checkbox {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 24px;
+  background-color: #eeeeee;
+  border-color: #cccccc;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.outline-checkbox:checked {
+  background-color: #4caf50;
+  border-color: #999999;
+}
+
+.outline-checkbox:checked::before {
+  content: "✔";
+  color: #ffffff;
+  font-size: 18px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scaleY(0.7);
+}
+
+.outline-checkbox:hover {
+  border-color: #999999;
+}

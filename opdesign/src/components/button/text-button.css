@@ -1,0 +1,17 @@
+.text-button {
+  border-style: none;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 0.8em 1.4em;
+  background-color: transparent;
+  color: #4caf50;
+  transition: color 0.3s ease;
+}
+
+.text-button:hover {
+  color: #43a047;
+}
+
+.text-button:active {
+  color: #2e7d32;
+}

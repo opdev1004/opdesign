@@ -1,0 +1,16 @@
+{
+  "name": "opdesign",
+  "version": "0.0.1",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "minify": "node minify.js"
+  },
+  "dependencies": {
+    "@opdev1004/cssfactory": "^0.0.5"
+  },
+  "devDependencies": {
+    "clean-css": "^5.3.3"
+  }
+}

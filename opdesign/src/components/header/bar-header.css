@@ -1,0 +1,10 @@
+.bar-header {
+  display: flex;
+  text-wrap: wrap;
+  word-break: break-word;
+  align-items: center;
+  width: 100%;
+  min-height: 64px;
+  padding: 4px 16px;
+  background-color: #ffffff;
+}
